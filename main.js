@@ -68,7 +68,7 @@ dialog.addEventListener("close", async (event) => {
       "https://site--form-back--dqr6xggsg6hp.code.run/send",
       payload
     );
-    console.log(result.data);
+    console.log(result.data.message);
     window.alert("Thank you! 😉");
   } catch (error) {
     console.error(error.message);
