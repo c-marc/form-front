@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+  border: 1px solid black;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.scroll-lock {
+  height: 100svh;
+  overflow: hidden;
+}
+
+/* -- MAIN -- */
+main p {
+  text-align: justify;
+}
+
+#contactMe {
+  display: block;
+  margin: 10% auto;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+/* -- MODAL -- */
+dialog {
+  position: relative;
+  margin: 10svh auto;
+  border-radius: 5px;
+  background-color: white;
+}
+
+dialog button[aria-label="close"] {
+  appearance: none;
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+dialog form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+dialog h2 {
+  margin-bottom: 10px;
+}
+
+dialog form :is(input, textarea) {
+  padding: 2px 5px;
+}
+
+dialog menu button {
+  margin-top: 10px;
+  padding: 2px 10px;
+  background-color: lightskyblue;
+}
