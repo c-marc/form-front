@@ -63,13 +63,14 @@ dialog {
   background-color: var(--color-lightgrey);
 }
 
-dialog button[aria-label="close"] {
+dialog form button[aria-label="close"] {
   /* appearance: none; */
   font-size: 2rem;
   font-weight: bold;
+  padding: 0 10px;
   position: absolute;
   top: 5px;
-  right: 15px;
+  right: 5px;
   cursor: pointer;
   border: none;
   background-color: var(--color-lightgrey);
