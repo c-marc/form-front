@@ -11,7 +11,9 @@
 button,
 input,
 textarea {
-  font: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
   border: 1px solid black;
 }
 
@@ -88,4 +90,9 @@ dialog menu button {
   margin-top: 10px;
   padding: 2px 10px;
   background-color: lightskyblue;
+  cursor: pointer;
+}
+
+dialog menu button:hover {
+  font-weight: bold;
 }
