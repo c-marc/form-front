@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-lightgrey: rgb(232, 232, 232);
+}
+
 button,
 input,
 textarea {
@@ -41,7 +45,7 @@ main p {
 }
 
 #contactMe:hover {
-  background-color: rgb(232, 232, 232);
+  background-color: var(--color-lightgrey);
   border-radius: 20px;
 }
 
@@ -50,7 +54,7 @@ dialog {
   position: relative;
   margin: 10svh auto;
   border-radius: 5px;
-  background-color: white;
+  background-color: var(--color-lightgrey);
 }
 
 dialog button[aria-label="close"] {
