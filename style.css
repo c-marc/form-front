@@ -53,6 +53,7 @@ main p {
 #contactMe:hover {
   background-color: var(--color-lightgrey-darker);
   border-radius: 20px;
+  cursor: pointer;
 }
 
 /* -- MODAL -- */
