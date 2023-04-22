@@ -65,7 +65,7 @@ dialog.addEventListener("close", async (event) => {
     // const result = await axios.post("http://localhost:3000/send", payload);
     // Deployed
     const result = await axios.post(
-      "site--form-back--dqr6xggsg6hp.code.run/send",
+      "https://site--form-back--dqr6xggsg6hp.code.run/send",
       payload
     );
     console.log(result.data);
