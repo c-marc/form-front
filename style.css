@@ -78,7 +78,7 @@ dialog {
   margin: 10svh auto;
   border-radius: 10px;
   background-color: var(--selective-yellow);
-  padding: 1.5rem;
+  padding: 1rem 1.5rem;
 }
 
 dialog form button[aria-label="close"] {
@@ -110,12 +110,12 @@ dialog form :is(input, textarea) {
 }
 
 dialog menu {
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
 }
 
 dialog menu button {
-  margin-top: 10px;
   padding: 0.5em 1em;
   border-radius: 4px;
   background-color: white;
