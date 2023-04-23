@@ -42,7 +42,7 @@ body {
   padding: 1.5rem;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 4px 4px 10px black;
+  box-shadow: 2px 2px 5px black;
 }
 
 .card h2 {
@@ -91,6 +91,10 @@ dialog form button[aria-label="close"] {
   right: 5px;
   cursor: pointer;
   border: none;
+  background-color: transparent;
+}
+
+dialog form button[aria-label="close"]::selection {
   background-color: transparent;
 }
 
